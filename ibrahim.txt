@@ -1,0 +1,46 @@
+this is lab report 3 of operating system
+
+
+vboxuser@Ubuntu:~$ pwd
+/home/vboxuser
+vboxuser@Ubuntu:~$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos  snap
+vboxuser@Ubuntu:~$ cd Desktop
+vboxuser@Ubuntu:~/Desktop$ mkdir ibrahi
+vboxuser@Ubuntu:~/Desktop$ cd ibrahi
+vboxuser@Ubuntu:~/Desktop/ibrahi$ ls
+vboxuser@Ubuntu:~/Desktop/ibrahi$ touch ibrahim.txt
+vboxuser@Ubuntu:~/Desktop/ibrahi$ cat > ibrahim.txt
+Hey this is me Ibrahim and this is my Lab 03 practice   
+^C
+vboxuser@Ubuntu:~/Desktop/ibrahi$ cat ibrahim.txt
+Hey this is me Ibrahim and this is my Lab 03 practice
+vboxuser@Ubuntu:~/Desktop/ibrahi$ gedit > ibrahim.txt
+
+** (gedit:7556): WARNING **: 08:24:55.099: Could not load Peas repository: Typelib file for namespace 'Peas', version '1.0' not found
+
+** (gedit:7556): WARNING **: 08:24:55.099: Could not load PeasGtk repository: Typelib file for namespace 'PeasGtk', version '1.0' not found
+
+(gedit:7556): libgedit-gtksourceview-WARNING **: 08:24:55.628: Failed to load style scheme file '/usr/share/libgedit-gtksourceview-300/styles/Yaru-dark.xml': Error on line 3 char 1: attribute 'version' invalid for element 'style-scheme'
+
+(gedit:7556): libgedit-gtksourceview-WARNING **: 08:24:55.629: Failed to load style scheme file '/usr/share/libgedit-gtksourceview-300/styles/Yaru.xml': Error on line 3 char 1: attribute 'version' invalid for element 'style-scheme'
+^C
+vboxuser@Ubuntu:~/Desktop/ibrahi$ gedit ibrahim.txt
+
+** (gedit:7867): WARNING **: 08:25:33.365: Could not load Peas repository: Typelib file for namespace 'Peas', version '1.0' not found
+
+** (gedit:7867): WARNING **: 08:25:33.365: Could not load PeasGtk repository: Typelib file for namespace 'PeasGtk', version '1.0' not found
+
+(gedit:7867): libgedit-gtksourceview-WARNING **: 08:25:33.815: Failed to load style scheme file '/usr/share/libgedit-gtksourceview-300/styles/Yaru-dark.xml': Error on line 3 char 1: attribute 'version' invalid for element 'style-scheme'
+
+(gedit:7867): libgedit-gtksourceview-WARNING **: 08:25:33.815: Failed to load style scheme file '/usr/share/libgedit-gtksourceview-300/styles/Yaru.xml': Error on line 3 char 1: attribute 'version' invalid for element 'style-scheme'
+vboxuser@Ubuntu:~/Desktop/ibrahi$ ls
+ibrahim.txt
+vboxuser@Ubuntu:~/Desktop/ibrahi$ touch khann.txt
+vboxuser@Ubuntu:~/Desktop/ibrahi$ rm khan.txt
+rm: cannot remove 'khan.txt': No such file or directory
+vboxuser@Ubuntu:~/Desktop/ibrahi$ rm khann.txt
+vboxuser@Ubuntu:~/Desktop/ibrahi$ ls
+ibrahim.txt
+vboxuser@Ubuntu:~/Desktop/ibrahi$ 
+
